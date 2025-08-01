@@ -14,3 +14,7 @@
 .bottom_bg_colour {
     background: linear-gradient(20deg, #ECFCE4 40%, #CAF8FC 60%, #DCECFD 80%);
 }
+.footer_bg{
+  background: linear-gradient(180deg, #F1F8FF 0%, #F1F8FF 100%);
+
+}

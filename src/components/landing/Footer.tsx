@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div className='footer_bg'>
-            <div className='max-w-[1440px] mx-auto w-full p-5 md:p-[50px] flex flex-col gap-[30px] md:gap-[50px]'>
+            <div className='max-w-[1440px] mx-auto w-full p-[30px] md:p-[50px] flex flex-col gap-[30px] md:gap-[50px]'>
                 <div className='text-base font-medium text-[#5A5A5A]'>
                     <span className='text-[#000000B2]'>Disclaimer:</span> <br />
                     Past performance is not indicative of future results.<br />

@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className="md:min-h-[986px] w-full relative overflow-hidden">
       <div className="absolute inset-0 top_bg_colour z-0"></div>
       <div className="absolute inset-0 bottom_bg_colour clip-diagonal z-0"></div>
-      <div className='relative max-w-[1440px] text-center mx-auto w-full md:w-[70%] xl:w-[55%] flex flex-col justify-center items-center gap-[20px] md:gap-[40px] py-[30px] md:py-[66px] px-[30px]'>
+      <div className='relative max-w-[1440px] text-center mx-auto w-full md:w-[80%] xl:w-[55%] flex flex-col justify-center items-center gap-[20px] md:gap-[40px] py-[30px] md:py-[66px] px-[30px]'>
         <div className='flex justify-center items-center gap-3'>
           <Image src="/images/home/img1.svg" width={46} height={30} alt='img icon' className='mt-1' />
           <h3 className='text-2xl md:text-4xl font-medium '>Breakouts & Setups</h3>

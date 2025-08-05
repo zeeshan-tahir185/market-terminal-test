@@ -12,22 +12,22 @@ const SecondHero = () => {
           <Image src="/images/home/img1.svg" width={46} height={30} alt='img icon' className='mt-1' />
           <h3 className='text-2xl md:text-4xl font-medium '>Breakouts & Setups</h3>
         </div>
-        <div className='flex flex-col items-center gap-[30px] md:flex-row md:mx-[50px] justify-between'>
-          <div className='flex flex-col w-full md:w-[60%] text-center md:text-left gap-[45px]'>
+        <div className='flex flex-col items-center gap-[30px] lg:flex-row md:mx-[50px] justify-between'>
+          <div className='flex flex-col w-full lg:w-[60%] text-center lg:text-left gap-[45px]'>
             <h1 className='text-4xl md:text-6xl font-semibold md:leading-[70px]'>
               <span>Get the Best </span>
               <span className='text-[#2360A7]'>Growth Stocks </span>
               <span>of the Week 💥</span>
             </h1>
             <p className='text-base md:text-[22px] font-medium text-[#303030]'>Every Sunday, get a curated list the best <span className='font-bold'>growth stocks breakouts</span> of the week— delivered straight to your inbox.</p>
-            <div className='w-full flex flex-col md:flex-row justify-center md:justify-start items-center gap-4'>
+            <div className='w-full flex flex-col xl:flex-row justify-center xl:justify-start items-center lg:items-start gap-4'>
               <input
                 type="email"
                 placeholder='Enter your email'
                 className='w-full md:w-[340px] h-[48px] rounded-[10px] border border-[#E3E3E8] shadow-xs bg-white outline-0 px-3'
                 autoFocus
               />
-              <button className='w-full md:w-[239px] h-[48px] rounded-[10px] shadow-xs cursor-pointer bg-[#000000] text-white flex justify-center items-center gap-3'>
+              <button className='w-full md:w-[340px] xl:w-[239px] h-[48px] rounded-[10px] shadow-xs cursor-pointer bg-[#000000] text-white flex justify-center items-center gap-3'>
                 Get Stock Ideas for Free <TiArrowRight className='text-xl' />
               </button>
             </div>

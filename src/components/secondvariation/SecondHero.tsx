@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { TiArrowRight } from "react-icons/ti";
+import { GoDotFill } from "react-icons/go";
 
 const SecondHero = () => {
   return (
@@ -13,13 +14,20 @@ const SecondHero = () => {
           <h3 className='text-2xl md:text-4xl font-medium '>Breakouts & Setups</h3>
         </div>
         <div className='flex flex-col items-center gap-[30px] lg:flex-row md:mx-[50px] justify-between'>
-          <div className='flex flex-col w-full lg:w-[60%] text-center lg:text-left gap-[45px]'>
-            <h1 className='text-4xl md:text-6xl font-semibold md:leading-[70px]'>
-              <span>Get the Best </span>
-              <span className='text-[#2360A7]'>Growth Stocks </span>
-              <span>of the Week 💥</span>
+          <div className='flex flex-col w-full lg:w-[60%] text-center lg:text-left gap-[25px] lg:gap-[45px]'>
+            <h1 className='text-4xl md:text-6xl font-semibold md:leading-[70px] text-start '>
+              <span>Get </span>
+              <span className='text-[#2360A7]'>Breakouts & Setups</span>
+              <span>Every Week 🔥</span>
             </h1>
-            <p className='text-base md:text-[22px] font-medium text-[#303030]'>Every Sunday, get a curated list the best <span className='font-bold'>growth stocks breakouts</span> of the week— delivered straight to your inbox.</p>
+            <div className='flex flex-col gap-2 items-start'>
+              <p className='text-base md:text-[20px] font-medium text-[#303030]'>Every Sunday In Your Inbox You’ll Get:</p>
+              <ul className='w-full flex flex-col gap-2'>
+                <li className=' flex items-center gap-2'><GoDotFill /> 3 <span className='font-semibold'>Breakouts.</span></li>
+                <li className=' flex items-center gap-2'><GoDotFill />3 <span className='font-semibold'> Setups.</span></li>
+                <li  className='font-semibold flex items-center gap-2'><GoDotFill />No Commitment.</li>
+              </ul>
+            </div>
             <div className='w-full flex flex-col xl:flex-row justify-center xl:justify-start items-center lg:items-start gap-4'>
               <input
                 type="email"
@@ -31,9 +39,9 @@ const SecondHero = () => {
                 Get Stock Ideas for Free <TiArrowRight className='text-xl' />
               </button>
             </div>
-            <p className="text-xs text-left opacity-50">By entering your email, you are signing up to receive Market Terminal as well as occasional marketing messages. You can unsubscribe from each at any time. Our privacy policy.</p>
+            <p className="text-xs text-left opacity-50">By entering your email, you are joining our free community. We respect your privacy. You can unsubscribe at any time.</p>
           </div>
-          <Image src="/images/home/img2.webp" width={300} height={307} alt='mobile img' className='md:w-[35%]' />
+          <Image src="/images/home/img2.webp" width={328} height={633} alt='mobile img' className='md:w-[35%]' />
         </div>
 
       </div>

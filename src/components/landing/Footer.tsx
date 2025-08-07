@@ -34,7 +34,7 @@ const Footer = () => {
                     The actual results achieved by members may vary, and we make no representations regarding the likelihood of financial success.<br />
                     Our work is delivered electronically, and we are not responsible for any technical issues, interruptions, or security issues that may arise during the electronic transmission of our work.
                 </div>
-                <div className='flex justify-between items-center gap-[20px] border-t border-[#EAECF0] pt-5 md:pt-[50px] flex-wrap flex-col sm:flex-row text-center sm:text-left'>
+                <div className='flex justify-between items-center gap-[20px] border-t border-[#EAECF0] pt-5 md:pt-[30px] flex-wrap flex-col sm:flex-row text-center sm:text-left'>
                     <div className='flex items-start gap-2'>
                         <Image src="/images/home/img1.svg" width={35} height={22} alt='img icon' className='mt-1' />
                         <h3 className='text-lg md:text-2xl font-medium'>Breakouts & Setups</h3>

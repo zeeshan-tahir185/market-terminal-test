@@ -8,18 +8,63 @@
   font-family: "Inter", sans-serif;
 }
 
+@font-face {
+  font-family: 'Clash Grotesk';
+  src: url('/fonts/font.woff') format('woff')
+}
+.main_heading_font {
+  font-family: 'Clash Grotesk', sans-serif;
+}
+
+
+
+
+
+
+
+.main_section_bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-image {
+  background-image: url('/images/home/bg1.png'); /* Replace with your actual image path */
+  background-size: contain; /* Adjust as needed: cover, contain, or specific size */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent repetition */
+  opacity: 0.6; /* Adjust opacity to make the image subtle but visible */
+  z-index: 1; /* Place it above gradients (z-0) but below content (relative) */
+}
+
 .clip-diagonal {
-  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 80%);
+  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 90%);
 }
 
 .top_bg_colour {
   background: linear-gradient(to right, white, #ECF4FE);
-
+  z-index: 0;
 }
 
 .bottom_bg_colour {
   background: linear-gradient(20deg, #ECFCE4 40%, #CAF8FC 60%, #DCECFD 80%);
+  z-index: 0;
+  opacity: 0.8; /* Slightly reduce opacity to let the image show through */
 }
+
+.gradient_color {
+  background: linear-gradient(135deg, #000000 30%, rgba(0, 0, 0, 0.5) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+
+
+
+
+
 
 .footer_bg {
   background: linear-gradient(180deg, #F1F8FF 0%, #F1F8FF 100%);
@@ -28,7 +73,7 @@
 
 .custom_eye {
   font-weight: 700;
-  background: linear-gradient(117.77deg, #2360A7 71.41%, rgba(35, 96, 167, 0.5) 95%); /* Adjusted to fade more gradually */
+  background: linear-gradient( 117.77deg, #2360A7 81.41%, rgba(35, 96, 167, 0.5) 95%); /* Adjusted to fade more gradually */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -45,5 +90,18 @@
   left: 0;
   width: 100%;
   height: 4px;
-  background: linear-gradient(117.77deg, #2360A7 10.41%, rgba(35, 96, 167, 0) 95%); /* Matching fade */
+  background: linear-gradient(117.77deg, #2360A7 1.41%, rgba(35, 96, 167, 0) 100%); /* Matching fade */
+}
+
+.main_section_background{
+  background-image:
+                url('/images/home/bg2.png'), 
+                url('/images/home/bg3.png'), 
+                url('/images/home/bg4.png');
+            background-position: 
+                center 0px, 
+                center 40%, 
+                center 80%; 
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-size: contain, contain, contain;
 }

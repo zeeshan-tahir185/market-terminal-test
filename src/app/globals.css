@@ -25,6 +25,10 @@
 .main_section_bg {
   position: relative;
   overflow: hidden;
+  background: url('/images/home/background.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .bg-image {
@@ -36,28 +40,12 @@
   z-index: 1; /* Place it above gradients (z-0) but below content (relative) */
 }
 
-.clip-diagonal {
-  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 90%);
-}
 
-.top_bg_colour {
-  background: linear-gradient(to right, white, #ECF4FE);
-  z-index: 0;
-}
+.custom_input_main{
+  border: 1px solid #E3E3E8;
+  box-shadow: 0px 0px 40px 0px #A2A2A240;
 
-.bottom_bg_colour {
-  background: linear-gradient(20deg, #ECFCE4 40%, #CAF8FC 60%, #DCECFD 80%);
-  z-index: 0;
-  opacity: 0.8; /* Slightly reduce opacity to let the image show through */
 }
-
-.gradient_color {
-  background: linear-gradient(135deg, #000000 30%, rgba(0, 0, 0, 0.5) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
 
 
 

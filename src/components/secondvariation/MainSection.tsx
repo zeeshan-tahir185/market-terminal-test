@@ -11,8 +11,8 @@ const MainSection = () => {
                 <div className='flex flex-col gap-2 text-base md:text-[22px] font-medium'>
                     <p className=''><span className='italic'>Winning Stocks</span> Don’t Move By Accident</p>
                     <ul className='ml-3'>
-                        <li>1. They <span className='font-bold'>Set Up</span>(Form Bases) & </li>
-                        <li>2. <span className='font-bold'>Break Out</span> 📈</li>
+                        <li className='font-medium'>1. They <span className='font-bold'>Set Up</span>(Form Bases) & </li>
+                        <li className='font-medium'>2. <span className='font-bold'>Break Out</span> 📈</li>
                     </ul>
                 </div>
                 <h2 className='text-base md:text-[22px] font-medium text-center md:text-left'>We Give You Stocks <span className='font-bold'>Breaking Out & Setting Up <span className='underline text-[#2360A7] italic'>Every Week</span></span></h2>
@@ -27,7 +27,7 @@ const MainSection = () => {
                 </div>
                 <div className='flex flex-col gap-[40px] md:gap-[100px] relative'>
                     <div className='w-[100%] md:w-[70%] mx-auto flex flex-col items-center'>
-                        <h1 className='text-xl md:text-3xl font-semibold text-center md:text-left'>🔥 PLTR: <span className='text-[#008000]'>+280.34%</span> in 27 weeks</h1>
+                        <h1 className='text-xl md:text-3xl font-semibold text-center md:text-left'>🔥 PLTR: <span className='text-[#008000]'>+280.34%</span> <span className='italic'>in 27 weeks</span></h1>
                         <Image src="/images/home/img4.webp" width={930} height={480} alt='first graph' />
                     </div>
                     <img src="/images/home/arrow2.png" alt="" className='w-[70px] md:w-[178px] absolute bottom-[-70px] md:bottom-[-100px] left-[-30px] md:left-0 xl:left-[10%]' />
@@ -45,7 +45,7 @@ const MainSection = () => {
                 <input
                     type="email"
                     placeholder='Enter your email'
-                    className='w-[70%] mx-auto lg:mx-0 lg:w-[255px] h-[48px] rounded-[10px] border border-[#E3E3E8] shadow-xs bg-white outline-0 px-3'
+                    className='w-[70%] mx-auto lg:mx-0 lg:w-[255px] h-[48px] rounded-[10px] bg-white outline-0 px-3 custom_input_main'
                     autoFocus
                 />
                 <button className='w-[70%] text-sm md:text-base mx-auto lg:mx-0 lg:w-[232px] xl:w-[239px] h-[48px] rounded-[10px] shadow-xs cursor-pointer bg-[#000000] text-white flex justify-center items-center gap-3'>
